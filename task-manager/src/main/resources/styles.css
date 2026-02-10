@@ -1,0 +1,63 @@
+.root {
+    -fx-font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+    -fx-background-color: linear-gradient(to bottom right, #f4f6fb, #e9eff8);
+}
+
+.header-title {
+    -fx-font-size: 20px;
+    -fx-font-weight: 700;
+    -fx-text-fill: #1f2a44;
+}
+
+.subtle-label {
+    -fx-text-fill: #4c5773;
+    -fx-font-size: 12px;
+}
+
+.card {
+    -fx-background-color: #ffffff;
+    -fx-background-radius: 12;
+    -fx-padding: 16;
+    -fx-border-color: #d9e1f1;
+    -fx-border-radius: 12;
+}
+
+.primary-button {
+    -fx-background-color: #2167f3;
+    -fx-text-fill: white;
+    -fx-background-radius: 8;
+    -fx-padding: 8 14;
+    -fx-font-weight: 600;
+}
+
+.primary-button:hover {
+    -fx-background-color: #1b58cd;
+}
+
+.secondary-button {
+    -fx-background-color: #edf2ff;
+    -fx-text-fill: #1f2a44;
+    -fx-background-radius: 8;
+    -fx-padding: 8 14;
+}
+
+.warning-button {
+    -fx-background-color: #ffe7e6;
+    -fx-text-fill: #8b1f1f;
+    -fx-background-radius: 8;
+    -fx-padding: 8 14;
+}
+
+.status-chip {
+    -fx-padding: 4 8;
+    -fx-background-radius: 999;
+    -fx-font-size: 11px;
+    -fx-font-weight: 600;
+}
+
+.list-view {
+    -fx-background-radius: 10;
+    -fx-border-color: #d9e1f1;
+    -fx-border-radius: 10;
+    -fx-background-color: white;
+}
